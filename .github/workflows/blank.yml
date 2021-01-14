@@ -15,7 +15,6 @@ jobs:
       - name: Test Merge
         uses: devmasx/merge-branch@v1.3.1
         with:
-          label_name: Send it
           from_branch: test1
           target_branch: test2
           github_token: ${{ github.token }}
