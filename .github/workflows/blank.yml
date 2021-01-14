@@ -12,11 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Merge staging -> uat
+      - name: Test Merge
         uses: devmasx/merge-branch@v1.3.1
         with:
-          type: now
           label_name: Send it
-          from_branch: test2
-          target_branch: test1
+          from_branch: test1
+          target_branch: test2
           github_token: ${{ github.token }}
