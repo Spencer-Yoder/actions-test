@@ -18,5 +18,5 @@ jobs:
         with:
           title: Hi World
           body: Credit new contributors by updating AUTHORS
-          base: test1
-          branch: test2
+          base: test2
+          branch: test1
